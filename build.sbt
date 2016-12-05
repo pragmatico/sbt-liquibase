@@ -11,7 +11,7 @@ version := "0.6.3"
 
 scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.10.0", "2.11.8")
+crossScalaVersions := Seq("2.11.8")
 
 libraryDependencies ++= {
   Seq (
@@ -25,7 +25,7 @@ licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.ap
 
 releasePublishArtifactsAction := PgpKeys.publishSigned.value
 
-releaseCrossBuild := true
+releaseCrossBuild := false
 
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
