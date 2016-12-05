@@ -7,9 +7,9 @@ organization := "co.pragmati"
 
 name := "sbt-liquibase"
 
-version := "0.6.0"
+version := "0.6.2"
 
-crossScalaVersions := Seq("2.10.0", "2.11.8", "2.12.0")
+crossScalaVersions := Seq("2.11.8")
 
 libraryDependencies ++= {
   Seq (

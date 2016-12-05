@@ -7,9 +7,9 @@ SBT Liquibase plugin
 
 Add the following to your `project/plugins.sbt`:
 
-## sbt-0.11.2 / 0.12.1 / 0.13.13
+## sbt-0.13
 
-    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.1")
+    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.2")
 
 ### Step 2: Add sbt-liquibase settings to your build
 
@@ -88,7 +88,7 @@ Notes
 ------------------
 
 [x] Liquibase version updated to 3.5.3
-[x] Support for Scala 2.11 and 2.12
+[x] Support for Scala 2.11
 [x] Plugin released in sonatype
 [x] Updated README
 
