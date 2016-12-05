@@ -7,7 +7,9 @@ organization := "co.pragmati"
 
 name := "sbt-liquibase"
 
-version := "0.6.2"
+version := "0.6.3"
+
+scalaVersion := "2.11.8"
 
 crossScalaVersions := Seq("2.11.8")
 
