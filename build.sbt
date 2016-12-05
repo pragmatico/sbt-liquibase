@@ -9,9 +9,9 @@ name := "sbt-liquibase"
 
 version := "0.6.3"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.10.4"
 
-crossScalaVersions := Seq("2.11.8")
+crossScalaVersions := Seq("2.10.4")
 
 libraryDependencies ++= {
   Seq (

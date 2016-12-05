@@ -9,7 +9,7 @@ Add the following to your `project/plugins.sbt`:
 
 ## sbt-0.13
 
-    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.4")
+    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.5")
 
 ### Step 2: Add sbt-liquibase settings to your build
 
@@ -88,7 +88,7 @@ Notes
 ------------------
 
 - Liquibase version updated to 3.5.3
-- Support for Scala 2.11
+- Support for SBT 0.13
 - Plugin released in sonatype
 - Updated README
 
