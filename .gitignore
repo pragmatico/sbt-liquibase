@@ -5,7 +5,5 @@ build
 *~
 project
 project/target
-project/project
-project/target
 .cache
 .*
