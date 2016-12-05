@@ -1,16 +1,15 @@
-Liquibase plugin for sbt 0.11 / 0.12
+SBT Liquibase plugin
 ====================================
 
 # Instructions for use:
+
 ### Step 1: Include the plugin in your build
 
 Add the following to your `project/plugins.sbt`:
 
-## sbt-0.11.2 / 0.12.1 
+## sbt-0.11.2 / 0.12.1 / 0.13.13
 
-    resolvers += "bigtoast-github" at "http://bigtoast.github.com/repo/"
-
-    addSbtPlugin("com.github.bigtoast" % "sbt-liquibase" % "0.5")
+    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.1")
 
 ### Step 2: Add sbt-liquibase settings to your build
 
@@ -84,8 +83,14 @@ Task | Description
 *liquibase-drop-all* | Drop all tables
 
 
+
 Notes
 ------------------
+
+[x] Liquibase version updated to 3.5.3
+[x] Support for Scala 2.11 and 2.12
+[x] Plugin released in sonatype
+[x] Updated README
 
 
 If any bugs are found or features wanted please file an issue in the github project. I will do my best to accommodate.
@@ -93,7 +98,7 @@ If any bugs are found or features wanted please file an issue in the github proj
 
 Acknoledgements
 ---------------
-Forked from https://github.com/becompany/sbt-liquibase
+Forked from https://github.com/becompany/sbt-liquibase (https://github.com/bigtoast/sbt-liquibase)
 
 
 
