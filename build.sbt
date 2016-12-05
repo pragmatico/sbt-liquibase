@@ -7,7 +7,7 @@ organization := "co.pragmati"
 
 name := "sbt-liquibase"
 
-version := "0.6.3"
+version := "0.6.6"
 
 scalaVersion := "2.10.4"
 
