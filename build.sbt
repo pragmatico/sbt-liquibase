@@ -11,7 +11,7 @@ version := "0.6.3"
 
 scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.11.8")
+crossScalaVersions := Seq("2.10.0", "2.11.8")
 
 libraryDependencies ++= {
   Seq (
@@ -24,6 +24,8 @@ homepage := Some(url("https://github.com/pragmatico/sbt-liquibase"))
 licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 releasePublishArtifactsAction := PgpKeys.publishSigned.value
+
+releaseCrossBuild := true
 
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,

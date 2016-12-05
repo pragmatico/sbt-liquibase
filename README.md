@@ -9,7 +9,7 @@ Add the following to your `project/plugins.sbt`:
 
 ## sbt-0.13
 
-    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.3")
+    addSbtPlugin("co.pragmati" % "sbt-liquibase" % "0.6.4")
 
 ### Step 2: Add sbt-liquibase settings to your build
 
