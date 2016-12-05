@@ -97,7 +97,9 @@ object LiquibasePlugin extends Plugin {
           null, // driverPropertiesFile
           null, // propertyProviderClass
           liquibaseChangelogCatalog.getOrElse(null),
-          liquibaseChangelogSchemaName.getOrElse(null)
+          liquibaseChangelogSchemaName.getOrElse(null),
+          "DATABASECHANGELOG",
+          "DATABASECHANGELOGLOCK"
       )
   },
 
