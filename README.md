@@ -27,6 +27,8 @@ Add the following to your 'build.sbt' ( if you are using build.sbt )
     liquibaseDriver   := "com.mysql.jdbc.Driver"
                         
     liquibaseUrl      := "jdbc:mysql://localhost:3306/test_db?createDatabaseIfNotExist=true"
+    
+    liquibaseChangelog := "src/main/liquibase/changelog/changelog-master.yml"
 
 Or if you are using a build object extending from Build:
 
